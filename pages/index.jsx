@@ -1,16 +1,15 @@
-
+import Header from '../components/common/header/Header';
 
 export default function Home() {
   return (
-    <div>tred afer <i className="fa-solid fa-house"></i>
+    <div>
+      <header className="header container mt-5">
+        <Header></Header>
+      </header>
 
-    <img src="/images/logo.jpg" alt="Alt"></img>
+      <main className="content"></main>
 
-    <button className="button button-primary">Button Primary</button>
-    <button className="button button-primary button-large">Button Primary Large</button>
-    <a className="button button-primary">Button Primary</a>
-    <a className="button button-primary button-large">Button Primary Large</a>
-
+      <footer className="footer"></footer>
     </div>
-  )
+  );
 }
